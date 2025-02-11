@@ -121,6 +121,7 @@ class WP_ChatGPT_Chatbot {
 
 			case 'chatbot':
 				echo '<p>Here\'s a sample chatbot from your <a href="/wp-admin/admin.php?page=ai_datalake_llms_bot&subpage=export">datalake</a>.</p>';
+                echo'<p>I hope this chatbot will provide insight into how well the datalake can be used for LLMs</p>';
                 echo'<p>Display chat with shortcode: [chatgpt_json_bot] or [chatgpt_json_bot training="true"]</p>';
 				echo do_shortcode( '[chatgpt_json_bot training="true"]' );
 				break;

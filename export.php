@@ -20,7 +20,7 @@ class WP_ChatGPT_JSON_Export {
 	public function display_export_page() {
 		echo '<div class="wrap">';
 		echo '<h1>Export JSON & JSONL Datalake</h1>';
-		echo '<p>Proposed <a href="https://www.pixaura.com/data-lakes-and-content-for-your-chatgpt-ready-site/" target="_blank">Datalakes for LLMs.</a>.</p>';
+		echo '<p>Proposed <a href="https://www.pixaura.com/data-lakes-and-content-for-your-chatgpt-ready-site/" target="_blank">Datalakes for LLMs.</a>. Go to the settings page to control export options.</p>';
 
 		echo '<a href="/datalake.json" target="_blank">Download JSON File</a> | 
 			  <a href="/datalake.jsonl" target="_blank">Download JSONL File</a></p>';

@@ -29,25 +29,31 @@ class WP_ChatGPT_Settings {
 
 				<h2>API Configuration</h2>
 				<label for="wp_chatgpt_api_key">OpenAI API Key:</label>
+				<br>
 				<input type="text" id="wp_chatgpt_api_key" name="wp_chatgpt_api_key" value="<?php echo esc_attr(get_option('wp_chatgpt_api_key', '')); ?>" style="width: 100%; max-width: 400px;">
 				<p><a href="https://openai.com/index/openai-api/" target="_blank">OpenAI API Key Needed</a></p>
 
 				<h2>Chatbot Configuration</h2>
 				<label for="wp_chatgpt_bot_name">Chatbot Name:</label>
+				<br>
 				<input type="text" id="wp_chatgpt_bot_name" name="wp_chatgpt_bot_name" value="<?php echo esc_attr(get_option('wp_chatgpt_bot_name', 'ChatGPT Bot')); ?>" style="width: 100%; max-width: 400px;">
-				
+				<br><br>
 				<label for="wp_chatgpt_bot_personality">Chatbot Personality:</label>
+				<br>
 				<textarea id="wp_chatgpt_bot_personality" name="wp_chatgpt_bot_personality" rows="3" style="width: 100%; max-width: 400px;"><?php echo esc_textarea(get_option('wp_chatgpt_bot_personality', 'Friendly and helpful AI assistant.')); ?></textarea>
 
 				<h2>Chatbot Training</h2>
 				<label for="wp_chatgpt_training_data">Training Data (JSON or FAQs):</label>
+				<br>
 				<textarea id="wp_chatgpt_training_data" name="wp_chatgpt_training_data" rows="6" style="width: 100%; max-width: 600px;"><?php echo esc_textarea(get_option('wp_chatgpt_training_data', '')); ?></textarea>
 
 				<h2>Chatbot Styling</h2>
 				<label for="wp_chatgpt_primary_color">Primary Color:</label>
+				<br>
 				<input type="color" id="wp_chatgpt_primary_color" name="wp_chatgpt_primary_color" value="<?php echo esc_attr(get_option('wp_chatgpt_primary_color', '#0073aa')); ?>">
-				
+				<br>
 				<label for="wp_chatgpt_font_family">Font Family:</label>
+				<br>
 				<input type="text" id="wp_chatgpt_font_family" name="wp_chatgpt_font_family" value="<?php echo esc_attr(get_option('wp_chatgpt_font_family', 'Arial, sans-serif')); ?>" style="width: 100%; max-width: 400px;">
 
 				<h2>Export Settings</h2>
@@ -73,6 +79,7 @@ class WP_ChatGPT_Settings {
 
 				<h3>Exclude ACF Fields from Export</h3>
 				<label for="wp_chatgpt_acf_exclude_fields">ACF Fields to Ignore (comma-separated):</label>
+				<br>
 				<textarea id="wp_chatgpt_acf_exclude_fields" name="wp_chatgpt_acf_exclude_fields" rows="3" style="width: 100%; max-width: 400px;"><?php echo esc_textarea(get_option('wp_chatgpt_acf_exclude_fields', '')); ?></textarea>
 				<p>Specify ACF fields to ignore during export, separated by commas (e.g., "field1, field2, field3").</p>
 
