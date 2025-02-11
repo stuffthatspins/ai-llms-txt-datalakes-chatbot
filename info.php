@@ -28,11 +28,11 @@ class WP_ChatGPT_Info_Page {
         </div>
 
 
-        <img style="width: 25%;" src="/wp-content/plugins/ai-datalake-llms-chatbot/img/data-lakes.jpg">
+        <img style="width: 25%;" src="/wp-content/plugins/ai-llms-txt-datalakes-chatbot/img/data-lakes.jpg">
 
 
         <p>
-        <img style="width: 150px;" src="/wp-content/plugins/ai-datalake-llms-chatbot/img/pixaura.png">
+        <img style="width: 150px;" src="/wp-content/plugins/ai-llms-txt-datalakes-chatbot/img/pixaura.png">
         <br>
         ...dreamed of by: james @ pixaura dot com
 
