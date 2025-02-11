@@ -11,6 +11,6 @@ I proposed making datalakes for your site so that LLMs don't have to crawl throu
 llms.txt files aims to do the same thing I propose with website datalakes. This is in standard markdown loanguage and has a llms.txt and llms-full.txt proposed format.
 https://llmstxt.org/
 
-#GEO Subreddit
+# GEO Subreddit
 Join my GEO (generative engine optimization) subreddit - [/r/GEO_GenEngineTalk](https://www.reddit.com/r/GEO_GenEngineTalk/)
 Join a community to talk about the the future and getting your content on LLMS!
